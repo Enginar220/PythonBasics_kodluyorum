@@ -4,9 +4,9 @@ ex = [[1,'a',['cat'],2],[[[3]],'dog'],4,5]
 wanted_list = []
 
 
-def visiting_each_item(given_list):
+def flatten_list(given_list):
 
-    # visiting each item in a nested list structure/list flatten...
+    # visiting each item in a nested list structure and putting them in wanted list such that wanted list is not nested one.
 
 
     for item in given_list:
