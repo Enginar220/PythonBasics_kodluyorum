@@ -1,4 +1,4 @@
-def prototype_f(liste):
+def prototype_f(liste): #This function makes the task for a list such that is not nested,for instance [1,2,3,4,5]
 
 
     
@@ -27,7 +27,7 @@ def prototype_f(liste):
 
 
 
-def actual_f(listem):
+def actual_f(listem): # This function generalizes the task that is done by function above to nested lists.
 
     prototype_f(listem)
 
